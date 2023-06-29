@@ -10,18 +10,19 @@ img{
 .header img{
     height: 50px;
     width:auto;
+    margin: 0 50px;
 }
 
 ul{
     list-style: none;
     display: flex;
     gap: 10px;
+    margin: 20px 50px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 0 50px;
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -82,6 +83,14 @@ button{
     justify-content: space-evenly;
 }
 
+.player{
+    border: 1px solid black;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 10px;
+  background-color: lightgray;
+}
+
 .player img{
     height: auto;
     width: 200px;
@@ -89,4 +98,55 @@ button{
 
 .player p{
     max-width: 200px;
+}
+
+.block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+    background-color: #E5E7EB;
+}
+
+.block3 p {
+    margin: 0;
+    padding:  0;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sayer{
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: right;
+    margin: 5px;
+}
+
+.block4{
+    padding: 50px 100px;
+}
+
+.modal{
+    display: flex;
+    justify-content: space-between;
+    background-color:#3882F6;
+    padding: 50px;
+    color:#E5E7EB;
+    border-radius: 25px;
+}
+
+.block4 .modal .right button{
+    border: 2px solid white;
+    padding: 5px;
+}
+
+#signUp
+{
+    font-weight: bold;
+    font-size: 24px;
 }
