@@ -1,0 +1,27 @@
+body{
+
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+.header img{
+    height: 50px;
+    width:auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
