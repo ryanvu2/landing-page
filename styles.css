@@ -20,6 +20,15 @@ ul{
     margin: 20px 50px;
 }
 
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:visited{
+    color: #E5E7EB;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
