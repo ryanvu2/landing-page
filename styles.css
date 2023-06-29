@@ -1,5 +1,5 @@
 body{
-
+    margin: 0px;
 }
 
 img{
@@ -24,4 +24,40 @@ ul{
     margin: 0 50px;
     background-color: #1F2937;
     color: #E5E7EB;
+}
+
+.block1{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 100px;
+}
+
+.block1 .left{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap:10px;
+}
+
+#hype {
+    color: white;
+    font-size: 48px;
+    font-weight: extra-bold;
+
+}
+
+#hypeText{
+    color: lightgray;
+    font-size: 18px;
+    margin:0px;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 25px;
+    border: none;
+    color: #E5E7EB;
+    max-width: 80px;
 }
